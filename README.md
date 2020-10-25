@@ -7,7 +7,7 @@ while all CSV files used are stored in the folder "Spotify CSV FQ3"
 For this program, the files stored in the CSV folder are stored in a File array so they can be accessed by index. Each file in the array is passed through a myQueue object,
 which extends the linked list class included in Main.java. This is done so we can add the necessary constructor which reads the file and a merge function which is only used
 by the myQueue object. The constructor reads the file using a Scanner object and stores each comma seperated value in an array. A custom regex is used to split the file line
-([Source](https://stackoverflow.com/a/18147076)). Since we are reading multiple files, the first file input is stored in a myQueue object called runningList and create a 
+([Source](([Source](https://stackoverflow.com/a/15739087)))). Since we are reading multiple files, the first file input is stored in a myQueue object called runningList and create a 
 loop which starts at the second file in the folder. Each file input is stored into a seperate myQueue object, which we merge using the merge method and store the merged list
 in runningList. Once we read all files, we convert runningList to a Playlist object using a constructor that takes a myQueue object. We then run the Playlist method
 listToPlaylist() which writes the output file using a PrintWriter object. This method writes the song title at the current position in the Playlist, as well as the previously
