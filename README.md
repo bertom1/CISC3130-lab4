@@ -21,6 +21,6 @@ To run this program, you need to have a github account setup with an SSH key. Ac
 are needed, unless your IDE of choice has git support. If you choose to run the program with this IDE,
 the setup process will differ.  
 1. Clone to your machine using `git clone git@github.com:bertom1/CISC3130-lab4.git` 
-2. Open the project directory with the command `cd CISC3130 lab4`. After you run this command enter `cd src`  
+2. Open the project directory with the command `cd CISC3130-lab4`. After you run this command enter `cd src`  
 3. To compile the program, use the command `javac Main.java`
 4. To run the program, use the command `java Main`  
